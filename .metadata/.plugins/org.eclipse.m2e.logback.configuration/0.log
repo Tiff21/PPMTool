@@ -230,3 +230,63 @@
 2019-08-07 12:46:17,898 [Worker-138: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-08-07 12:46:17,901 [Worker-138: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-08-07 12:46:17,901 [Worker-138: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\Tiffany\Desktop\PPMToolFullStack\ppmtool\src\test\resources
+2019-08-08 10:25:03,983 [Worker-167: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-08 10:25:03,989 [Worker-167: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-08-08 10:25:04,000 [Worker-167: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-08-08 10:25:04,003 [Worker-167: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-08 10:25:04,003 [Worker-167: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\Tiffany\Desktop\PPMToolFullStack\ppmtool\src\test\resources
+2019-08-08 10:28:02,993 [Worker-169: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-08 10:28:02,994 [Worker-169: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-08-08 10:28:03,003 [Worker-169: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-08-08 10:28:03,006 [Worker-169: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-08 10:28:03,006 [Worker-169: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\Tiffany\Desktop\PPMToolFullStack\ppmtool\src\test\resources
+2019-08-08 10:29:56,269 [Worker-169: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-08 10:29:56,274 [Worker-169: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-08-08 10:29:56,287 [Worker-169: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-08-08 10:29:56,293 [Worker-169: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-08 10:29:56,294 [Worker-169: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\Tiffany\Desktop\PPMToolFullStack\ppmtool\src\test\resources
+2019-08-08 11:11:11,890 [Worker-179: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-08 11:11:11,895 [Worker-179: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-08-08 11:11:11,904 [Worker-179: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-08-08 11:11:11,906 [Worker-179: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-08 11:11:11,906 [Worker-179: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\Tiffany\Desktop\PPMToolFullStack\ppmtool\src\test\resources
+2019-08-08 11:15:34,165 [Worker-184: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-08 11:15:34,170 [Worker-184: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-08-08 11:15:34,180 [Worker-184: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-08-08 11:15:34,183 [Worker-184: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-08 11:15:34,183 [Worker-184: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\Tiffany\Desktop\PPMToolFullStack\ppmtool\src\test\resources
+2019-08-08 11:19:34,365 [Worker-182: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-08 11:19:34,371 [Worker-182: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-08-08 11:19:34,389 [Worker-182: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-08-08 11:19:34,392 [Worker-182: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-08 11:19:34,392 [Worker-182: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\Tiffany\Desktop\PPMToolFullStack\ppmtool\src\test\resources
+2019-08-08 11:23:00,046 [Worker-190: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-08 11:23:00,050 [Worker-190: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-08-08 11:23:00,060 [Worker-190: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-08-08 11:23:00,063 [Worker-190: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-08 11:23:00,063 [Worker-190: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\Tiffany\Desktop\PPMToolFullStack\ppmtool\src\test\resources
+2019-08-08 11:38:07,245 [Worker-196: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-08 11:38:07,251 [Worker-196: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-08-08 11:38:07,262 [Worker-196: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-08-08 11:38:07,265 [Worker-196: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-08 11:38:07,265 [Worker-196: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\Tiffany\Desktop\PPMToolFullStack\ppmtool\src\test\resources
+2019-08-08 11:50:06,271 [Worker-205: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-08 11:50:06,276 [Worker-205: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-08-08 11:50:06,283 [Worker-205: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-08-08 11:50:06,286 [Worker-205: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-08 11:50:06,286 [Worker-205: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\Tiffany\Desktop\PPMToolFullStack\ppmtool\src\test\resources
+2019-08-08 11:55:05,842 [Worker-206: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-08 11:55:05,849 [Worker-206: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-08-08 11:55:05,859 [Worker-206: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-08-08 11:55:05,862 [Worker-206: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-08 11:55:05,862 [Worker-206: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\Tiffany\Desktop\PPMToolFullStack\ppmtool\src\test\resources
+2019-08-09 15:31:25,333 [Worker-317: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-09 15:31:25,341 [Worker-317: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-08-09 15:31:25,350 [Worker-317: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-08-09 15:31:25,355 [Worker-317: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-09 15:31:25,356 [Worker-317: Launching PpmtoolApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\Tiffany\Desktop\PPMToolFullStack\ppmtool\src\test\resources
+2019-08-12 11:43:25,017 [Worker-395: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-12 11:43:25,022 [Worker-395: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-08-12 11:43:25,031 [Worker-395: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-08-12 11:43:25,036 [Worker-395: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-12 11:43:25,036 [Worker-395: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Users\Tiffany\Desktop\PPMToolFullStack\ppmtool\src\test\resources
