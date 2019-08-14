@@ -1,0 +1,5 @@
+package com.hcltech.ppmtool.domain;
+
+public class ProjectTask {
+
+}

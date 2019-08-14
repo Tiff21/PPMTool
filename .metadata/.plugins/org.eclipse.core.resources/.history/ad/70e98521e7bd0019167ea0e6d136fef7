@@ -1,0 +1,26 @@
+package com.hcltech.ppmtool.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.hcltech.ppmtool.domain.Backlog;
+import com.hcltech.ppmtool.repositories.BacklogRepository;
+import com.hcltech.ppmtool.repositories.ProjectTaskRepository;
+
+@Service
+public class ProjectTaskService {
+
+	@Autowired
+	private BacklogRepository backlogRepository;
+	
+	@Autowired
+	private ProjectTaskRepository projectTaskRepository;
+	
+	public ProjectTaskRepository addProjectTask() {
+		
+		// PTs to be added to a specific project, project != null, BL exists
+		// set the BL to PT 
+		
+	}
+	
+} // class

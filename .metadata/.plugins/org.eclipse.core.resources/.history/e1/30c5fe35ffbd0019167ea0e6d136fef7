@@ -1,0 +1,60 @@
+package com.hcltech.ppmtool.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.hcltech.ppmtool.domain.Backlog;
+import com.hcltech.ppmtool.domain.ProjectTask;
+import com.hcltech.ppmtool.repositories.BacklogRepository;
+import com.hcltech.ppmtool.repositories.ProjectTaskRepository;
+
+@Service
+public class ProjectTaskService {
+
+	@Autowired
+	private BacklogRepository backlogRepository;
+	
+	@Autowired
+	private ProjectTaskRepository projectTaskRepository;
+	
+	public ProjectTask addProjectTask(String projectIdentifier, ProjectTask projectTask) {
+		
+		// Exceptions: Project not found
+		
+		// PTs to be added to a specific project, project != null, BL exists
+		Backlog backlog = backlogRepository.findByProjectIdentifier(projectIdentifier);
+		
+		
+		// set the BL to PT 
+		projectTask.setBacklog(backlog);
+		// we want our project sequence to be like this: IDPRO-1	IDPRO-2 ... IDPRO-n
+		Integer backlogSequence = backlog.getPTSequence();
+		// update the BL sequence
+		backlogSequence++;
+		backlog.setPTSequence(backlogSequence);
+		
+		// add sequence to PT
+		projectTask.setProjectSequence(projectIdentifier + "-" + backlogSequence);
+		projectTask.setProjectIdentifier(projectIdentifier);
+		
+		// INITIAL priority when priority null
+		// In the future, we need projectTask.getPriority == 0 to handle the form 
+		if (projectTask.getPriority() == null) {
+			projectTask.setPriority(3);
+		}
+		// INITIAL status when status is null
+		if (projectTask.getStatus() == "" || projectTask.getStatus() == null) {
+			projectTask.setStatus("TO_DO");
+		}
+		
+		return projectTaskRepository.save(projectTask);
+	} // addProjectTask
+
+	public Iterable<ProjectTask> findBacklogById(String backlog_id) {
+		
+		return projectTaskRepository.findByProjectIdentifierOrderByPriority(backlog_id);
+	} // findBacklogById
+	
+} // class

@@ -3,8 +3,10 @@ package com.hcltech.ppmtool.services;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.hcltech.ppmtool.domain.Backlog;
 import com.hcltech.ppmtool.domain.Project;
 import com.hcltech.ppmtool.exceptions.ProjectIdException;
+import com.hcltech.ppmtool.repositories.BacklogRepository;
 import com.hcltech.ppmtool.repositories.ProjectRepository;
 
 @Service
@@ -13,10 +15,25 @@ public class ProjectService {
 	@Autowired
 	private ProjectRepository projectRepository;
 	
+	@Autowired
+	private BacklogRepository backlogRepository;
+	
 	public Project saveOrUpdateProject(Project project) {
 		 
 		try {
 			project.setProjectIdentifier(project.getProjectIdentifier().toUpperCase());
+			
+			if(project.getId() == null) {
+				Backlog backlog = new Backlog();
+				project.setBacklog(backlog);
+				backlog.setProject(project);
+				backlog.setProjectIdentifier(project.getProjectIdentifier().toUpperCase());
+			}
+			
+			if(project.getId() != null) {
+				project.setBacklog(backlogRepository.findByProjectIdentifier(project.getProjectIdentifier().toUpperCase()));
+			}
+			
 			return projectRepository.save(project);
 		} catch (Exception e) {
 			throw new ProjectIdException(("Project ID '" 
@@ -46,7 +63,7 @@ public class ProjectService {
 		Project project = projectRepository.findByProjectIdentifier(projectId.toUpperCase());
 		
 		if (project == null) {
-			throw new ProjectIdException("Connot delete Project with ID '" 
+			throw new ProjectIdException("Cannot delete Project with ID '" 
 											+ projectId 
 											+ "'. This project does not exist");	
 		} // if
