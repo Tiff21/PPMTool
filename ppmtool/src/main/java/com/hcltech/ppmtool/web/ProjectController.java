@@ -1,6 +1,7 @@
 package com.hcltech.ppmtool.web;
 
 import java.util.Map;
+import java.security.Principal;
 import java.util.HashMap;
 import java.util.List;
 
@@ -36,33 +37,36 @@ public class ProjectController {
 	private MapValidationErrorService mapValidationErrorService;
 	
 	@PostMapping("")
-	public ResponseEntity<?> createNewProject(@Valid @RequestBody Project project, BindingResult result) {
+	public ResponseEntity<?> createNewProject(@Valid @RequestBody Project project, 
+			BindingResult result, Principal principal) {
 		
 		ResponseEntity<?> errorMap = mapValidationErrorService.MapValicationService(result);
 		
 		if (errorMap != null) return errorMap;
 		
-		Project project1 = projectService.saveOrUpdateProject(project);
+		Project project1 = projectService.saveOrUpdateProject(project, principal.getName());
 		return new ResponseEntity<Project>(project, HttpStatus.CREATED);
 	} // createNewProject
 	
 	@GetMapping("/{projectId}")
-	public ResponseEntity<?> getProjectById(@PathVariable String projectId){
+	public ResponseEntity<?> getProjectById(@PathVariable String projectId,
+			Principal principal){
 		
-		Project project = projectService.findProjectByIdentifier(projectId);
+		Project project = projectService.findProjectByIdentifier(projectId, principal.getName());
 		
 		return new ResponseEntity<Project>(project, HttpStatus.OK); 
 	} // getProjectById
 	
 	@GetMapping("/all")
-	public Iterable<Project> getAllProjects(){
-		return projectService.findAllProjects();
+	public Iterable<Project> getAllProjects(Principal principal){
+		return projectService.findAllProjects(principal.getName());
 				
 	} // getAllProjects
 	
 	@DeleteMapping("/{projectId}")
-	public ResponseEntity<?> deleteProject(@PathVariable String projectId){
-		projectService.deleteProjectByIdentifier(projectId);
+	public ResponseEntity<?> deleteProject(@PathVariable String projectId,
+			Principal principal){
+		projectService.deleteProjectByIdentifier(projectId, principal.getName());
 		
 		return new ResponseEntity<String>("Project with ID: "
 											+ projectId

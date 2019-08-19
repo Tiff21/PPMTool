@@ -1,5 +1,0 @@
-package com.hcltech.ppmtool.exceptions;
-
-public class CustomResponseEntityExceptionHandler {
-
-}

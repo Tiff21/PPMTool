@@ -365,3 +365,4 @@ org.eclipse.jdt.core.formatter.wrap_before_shift_operator=true
 org.eclipse.jdt.core.formatter.wrap_before_string_concatenation=true
 org.eclipse.jdt.core.formatter.wrap_outer_expressions_when_nested=true
 org.eclipse.jdt.core.timeoutForParameterNameFromAttachedJavadoc=50
+org.eclipse.jdt.core.userLibrary.gson_lib=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="D\:/Users/Tiffany/Desktop/classes/gson-2.8.5.jar"/>\r\n</userlibrary>\r\n

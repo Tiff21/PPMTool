@@ -1,5 +1,0 @@
-package com.hcltech.ppmtool.repositories;
-
-public interface ProjectRepository {
-
-}
